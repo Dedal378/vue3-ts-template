@@ -1,0 +1,1 @@
+import{_ as e,o,c as n}from"./index-996bb4d1.js";const c={},t={class:"text-emerald4"};function s(a,r){return o(),n("p",t," Ohai! I'm an asynchronously-loaded component! ")}const l=e(c,[["render",s]]);export{l as default};
