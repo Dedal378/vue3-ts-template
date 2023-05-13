@@ -28,4 +28,5 @@ coverage
 *.sln
 *.sw?
 tailwind.config.js
+.pnp.cjs
 .pnp.loader.mjs
