@@ -1,18 +1,23 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": [
-    "./env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["./env.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
-    "target": "ESNext",
+    "composite": true,
     "module": "ESNext",
+    "target": "ES2015",
     "moduleResolution": "node",
     "isolatedModules": true,
     "sourceMap": true,
-    "composite": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
   }
 }
