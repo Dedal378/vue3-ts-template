@@ -14,6 +14,6 @@ export default defineConfig({
     preserveSymlinks: true
   },
   define: { 'process.env': {}},
-  server: { port: 3001 },
+  server: { port: 3000 },
   base: '/vue3-ts-template/',
 })

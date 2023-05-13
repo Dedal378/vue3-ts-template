@@ -29,4 +29,3 @@ coverage
 *.sw?
 tailwind.config.js
 .pnp.loader.mjs
-*gh-pages.sh
