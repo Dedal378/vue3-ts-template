@@ -155,5 +155,7 @@ module.exports = {
     'arrow-spacing': 'warn', // пробелы в () =>
     'arrow-parens': ['warn', 'always'], // скобки в стрелочной функции ['as-needed']
     'linebreak-style': ['warn', 'unix'], //стиль разрыва строки linebreak-style: ["error", "unix || windows"]
+    // '@unocss/order': 'warn',
+    // '@unocss/order-attributify': 'warn'
   },
 }
